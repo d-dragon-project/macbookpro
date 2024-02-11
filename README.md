@@ -10,8 +10,8 @@ Orfer of instalation
 
 
 SETUP#2 macbookpro - Triple Boot - Windows - Kali - Parrot + SHARED
-PNY sda 1TB - |Windows - 50% GB| + |Parrot - 614912 MB |
-TEAM sdb 1TB - |Kali - 614912 MB| + |SHARED - 441357 MB|
+PNY sda 1TB - |Windows - 50% GB| + |Parrot - 680960 MB |
+TEAM sdb 1TB - |Kali - 680960 MB| + |SHARED - 272892 MB|
 Order of Installation
 1. sda1 - Windows
 2. sb1 - Kali
