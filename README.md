@@ -9,7 +9,10 @@ Order of instalation
 1. sda1 High Sierra
 2. sda2 BACKUP Drive
 3. sdb - Open-Core Legacy Patcher to sb1
-4. sdb1 - Ventura 
+4. sdb1 - Ventura
+   
+
+============================================================================
 
 
 SETUP#2 macbookpro - Triple Boot - Windows - Kali - Parrot + SHARED
