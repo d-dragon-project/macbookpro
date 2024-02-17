@@ -1,6 +1,8 @@
 SETUP#1 macbookpro - MacOS dual boot + BACKUP drive
 MacOS for High Sierra + Ventura
+
 1.PNY sda 1TB (caddy) - |High Sierra - 250GB| + |BACKUP(ext2) - 750GB| 
+
 2.PNY sdb 500GB - |Ventura + OCLP(open-core legacy patcher)
 
 Order of instalation
