@@ -1,6 +1,6 @@
 SETUP#1 macbookpro - MacOS dual boot + BACKUP drive
 MacOS for High Sierra + Ventura
-PNY sda 1TB - |High Sierra - 250GB| + |BACKUP(ext2) - 750GB|
+PNY sda 1TB (caddy) - |High Sierra - 250GB| + |BACKUP(ext2) - 750GB| 
 PNY sdb 500GB - |Ventura + OCLP(open-core legacy patcher)
 Orfer of instalation
 1. sda1 High Sierra
@@ -10,8 +10,8 @@ Orfer of instalation
 
 
 SETUP#2 macbookpro - Triple Boot - Windows - Kali - Parrot + SHARED
-PNY sda 1TB - |Windows - 50% GB| + |Parrot - 680960 MB |
-TEAM sdb 1TB - |Kali - 680960 MB| + |SHARED - 272892 MB|
+PNY sda 931.51 GB (caddy) - |Windows - 245760 MB| + |Parrot - 680960 MB |
+ADATA sdb 953.86 GB - |Kali - 667702 MB| + |Shared - 286158 MB|
 Order of Installation
 1. sda1 - Windows
 2. sb1 - Kali
