@@ -13,7 +13,9 @@ Order of instalation
 
 
 SETUP#2 macbookpro - Triple Boot - Windows - Kali - Parrot + SHARED
+
 1.#PNY sdb 931.51 GB (caddy) - |Windows- 240310 MB| + |Parrot - 691200 MB| 
+
 2.#ADATA sda 953.86 GB - |Kali - 701620 MB| + |Shared - 252240 MB| + 
 
 Order of Installation
