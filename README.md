@@ -35,5 +35,6 @@ Order of Installation
 11. re-install rEFInd to fix Grub issue and create triple boot option
 12. hide un-needed options
 13. install/fix windows audio issues
-14. configure GRUB of Kali and Parrot
-15. Run batman.sh on Kali and parrot.sh on Parrot
+14. Run batman.sh on Kali and parrot.sh on Parrot
+15. Configure GRUB of Kali and Parrot
+16. Configure the things to do after installing Kali
