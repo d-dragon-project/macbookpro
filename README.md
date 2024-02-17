@@ -10,13 +10,21 @@ Orfer of instalation
 
 
 SETUP#2 macbookpro - Triple Boot - Windows - Kali - Parrot + SHARED
-ADATA sda 953.86 GB - |Windows - 272900 MB| + |Parrot - 680960 MB| 
-PNY sdb 931.51 GB (caddy) - |Kali - 680960 MB| + |Shared - 248550 MB| +
+#PNY sdb 931.51 GB (caddy) - |Windows- 240310 MB| + |Parrot - 691200 MB| 
+#ADATA sda 953.86 GB - |Kali - 701620 MB| + |Shared - 252240 MB| + 
 Order of Installation
-1. sda1 (272900 mb) - Windows
-2. sdb1 (680960 mb) - Kali
-3. sdb2 (248550 mb) - SHARED (NTFS)
-4. install rEFInd (disables secure bootwhich is requirement to fix windows audio issue)
-5. install/fix windows audio issues
-6. sda2 (680 - Parrot (EFI system partition: /dev/sb3)
-7.  re-install rEFInd to fix Grub issue and create triple boot option
+1. install sdb alone (PNY) (240310 mb) - Windows
+2. allocate/format sb2 (691200) to EXT2 - Parrot
+3. Install sdb (ADATA)  
+4. allocate/format sda1 (716800 mb) - Kali (Format EXT2)
+5. allocate/format sda2 (252240 mb) - SHARED (Format NTFS)
+6. delete sda1 volume Kali
+7. install Kali using sda1 (716800 mb) - largest free space
+8. delelet sb2 volume (691200 mb) - Parrot
+9. install Parrot on sdb (691200 mb free space), replace a partition (use free space) & EFI system partition (Kali) /dev/sda3
+10. install rEFInd (disables secure boot which is requirement to fix windows audio issue)
+11. re-install rEFInd to fix Grub issue and create triple boot option
+12. hide un-needed options
+13. install/fix windows audio issues
+14. configure GRUB of Kali and Parrot
+15. Run batman.sh on Kali and parrot.sh on Parrot
