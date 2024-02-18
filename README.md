@@ -10,6 +10,7 @@ Order of instalation
 2. sda2 BACKUP Drive
 3. sdb - Open-Core Legacy Patcher to sb1
 4. sdb1 - Ventura
+5. sudo spctl --master-disable
    
 
 ============================================================================
